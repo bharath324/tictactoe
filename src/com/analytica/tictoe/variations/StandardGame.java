@@ -2,6 +2,9 @@ package com.analytica.tictoe.variations;
 
 import com.analytica.tictoe.exceptions.IllegalUserInputException;
 
+/**
+ * Standard game which handles the user input parsing logic specific to it
+ */
 public abstract class StandardGame extends Game {
 
 

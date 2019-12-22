@@ -8,6 +8,14 @@ import java.io.IOException;
 
 import static com.analytica.tictoe.report.Report.*;
 
+/**
+ * Single Player mode OddEven game. It implements the following specific logic
+ * <li/>Asks for the user input for selecting the player name (Odd or Even)
+ * <li/>It implements the logic for creating players.
+ * <li/>Print game rules relevant to this combination of mode and variation
+ * <li/>Gets the next move for either by parsing the input from human on console or
+ * get best move for Computer
+ */
 public class SinglePlayerOddEvenGame extends OddEvenGame {
 
     private int userChoiceForOddEven;

@@ -7,6 +7,12 @@ import java.io.IOException;
 import static com.analytica.tictoe.report.Report.getUserInput;
 import static com.analytica.tictoe.report.Report.printStandardGameRules;
 
+/**
+ * Two Player mode Standard game. It implements the following specific logic
+ * <li/>It implements the logic for creating players.
+ * <li/>Print game rules relevant to this combination of mode and variation
+ * <li/>Gets the next move by returning the input from human on console
+ */
 public class TwoPlayerStandardGame extends StandardGame {
 
     @Override

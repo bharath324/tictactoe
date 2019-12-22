@@ -2,6 +2,9 @@ package com.analytica.tictoe.variations;
 
 import com.analytica.tictoe.exceptions.IllegalUserInputException;
 
+/**
+ * OddEven game which handles the user input parsing logic specific to it
+ */
 public abstract class OddEvenGame extends Game {
 
     public static final String ODD = "Odd";

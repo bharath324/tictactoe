@@ -8,6 +8,14 @@ import java.io.IOException;
 
 import static com.analytica.tictoe.report.Report.*;
 
+/**
+ * Single Player mode Standard game. It implements the following specific logic
+ * <li/>Asks for the user input for selecting the player name (X or O)
+ * <li/>It implements the logic for creating players.
+ * <li/>Print game rules relevant to this combination of mode and variation
+ * <li/>Gets the next move for either by returning the input from human on console or
+ * get best move for Computer
+ */
 public class SinglePlayerStandardGame extends StandardGame {
 
     private int userInputForPlayerName;
