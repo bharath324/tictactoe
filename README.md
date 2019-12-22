@@ -1,7 +1,7 @@
 # tictactoe
 
 1. This is a TicTacToe game developed in Java.
-2. It has supports two modes:
+2. It supports two modes:
     1. Single Player (Man vs Computer)
     2. Two Player (Man vs Man)
 3. For each of the above mode, the game has 2 variations as following:
