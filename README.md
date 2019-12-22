@@ -1,7 +1,7 @@
 # tictactoe
 
-1. This is an assignment project for developed a TicTacToe game in Java.
-2. This project supports two modes:
+1. This is an project is a game TicTacToe developed in Java.
+2. It has supports two modes:
     1. Single Player (Man vs Computer)
     2. Two Player (Man vs Man)
 3. For each of the above mode, the game has 2 variations as following:
