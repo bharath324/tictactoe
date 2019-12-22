@@ -1,6 +1,6 @@
 # tictactoe
 
-1. This is an project is a game TicTacToe developed in Java.
+1. This is a TicTacToe game developed in Java.
 2. It has supports two modes:
     1. Single Player (Man vs Computer)
     2. Two Player (Man vs Man)
