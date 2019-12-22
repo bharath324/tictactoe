@@ -11,6 +11,18 @@ import java.io.IOException;
 
 import static com.analytica.tictoe.report.Report.*;
 
+/**
+ * Generic Game using template method pattern which does following jobs,
+ * <li/>Creating players,
+ * <li/>setting initial current player
+ * <li/>Print specific game rules, which delegated to the relevant subclass game.
+ * <li/>Starts the game in loop as long as the game is in undecided state.
+ * <li/>Prompts for the user input
+ * <li/>Gets the next move using subclass inheritance classes
+ * <li/>Makes the move and gets the state after the move
+ * <li/>Sets the next player and prints the board.
+ * <li/>Handles any exceptions gracefully by logging it to the user
+ */
 public abstract class Game {
 
     Player player1;
